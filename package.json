@@ -1,0 +1,17 @@
+{
+  "name": "gm-binary",
+  "version": "0.1.0",
+  "description": "GraphicsMagick binary as a local dependency for OS X",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "keywords": [
+    "GraphicsMagick"
+  ],
+  "author": "Adrien Glitchbone",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
