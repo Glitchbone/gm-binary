@@ -2,9 +2,14 @@
   "name": "gm-binary",
   "version": "0.1.0",
   "description": "GraphicsMagick binary as a local dependency for OS X",
+  "homepage": "https://github.com/Glitchbone/gm-binary",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Glitchbone/gm-binary.git"
   },
   "keywords": [
     "GraphicsMagick"
