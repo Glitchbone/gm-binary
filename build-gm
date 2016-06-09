@@ -1,0 +1,10 @@
+#!/bin/sh
+
+brew install graphicsmagick-custom.rb
+cp /usr/local/Cellar/graphicsmagick-custom/1.3.24/bin/gm ./bin/gm
+cp -r /usr/local/Cellar/graphicsmagick-custom/1.3.24/lib/GraphicsMagick/config/ ./bin/config/
+brew uninstall graphicsmagick-custom
+cd bin
+chmod +w gm
+dylibbundler -cd -of -b -x gm -d libs/
+otool -L gm
